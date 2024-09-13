@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.input-fil input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    background: rgba(24, 31, 50, 1);
+    border: none;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    width: 270px;
+}
+
+.main {
+    
+    background-color: rgba(59, 70, 100, 1);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-btn {
+background: rgba(37, 45, 68, 1);
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 19px;
+    gap: 10px
+}
+
+.btn-1 button {
+    color: rgba(59, 70, 100, 1);
+    width: 50px;
+    font-weight: 900;
+    padding: 10px 10px;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 12px;
+
+
+}
+
+.btn-2 button {
+    width: 111px;
+    border: none;
+
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
+.btn-2 button:nth-child(2){
+    background-color: rgba(209, 63, 48, 1);
+   
+    
+}
